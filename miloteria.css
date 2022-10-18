@@ -1,0 +1,139 @@
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.image  {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  background: url("..images/miloteria.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image:hover .image::before{
+  left: 100px;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.image:hover .image::after{
+  left: 300px:
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+
+@@font-face {
+  font-family: 'Passion One', cursive;
+}
+
+.text {
+  font-family: 'Passion One';
+  width: 50px;
+  font-size: 60px;
+  color: #075432  ;
+
+}
+
+
+.container  {
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+}
+
+@keyframes L_fade {
+  0%  {opacity: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.L  {
+  opacity: 0;
+  animation: L_fade 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@@keyframes O_fade  {
+  0%  {opacity: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.O  {
+  position: relative;
+  opacity: 0;
+  animation: O_fade 1s;
+  animation-fill-mode:forwards;
+  animation-delay: 1s;
+}
+
+@keyframes T_fade   {
+  0%  {opacity: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.T  {
+  position: relative;
+  opacity: 0;
+  animation: T_fade 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes E_fade {
+  0%  {opactiy: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.E  {
+  position: relative;
+  opacity: 0;
+  animation: E_fade 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes R_fade {
+  0%  {opacity: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.R  {
+  position: relative;
+  opacity: 0;
+  animation: R_fade 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes I_fade {
+  0%  {opacity: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.I  {
+  position: relative;
+  opacity: 0;
+  animation: I_fade 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes A_fade {
+  0%  {opacity: 0;  }
+  100%  {opacity: 1;  }
+}
+
+.A  {
+  position: relative;
+  opacity: 0;
+  animation: A_fade 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
